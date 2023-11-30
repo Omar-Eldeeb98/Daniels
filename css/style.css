@@ -47,21 +47,24 @@ body {
     transform: translateX(-50%);
 }
 
-/* body:has(.home_anchor.active) nav {
+body:has(.home_anchor.active) nav {
     background-color: transparent !important;
     position: absolute;
-   
-    
+
+
 }
+
 body:has(.home_anchor.active) a {
     color: white;
 }
-body:has(.home_anchor.active) a.active{
+
+body:has(.home_anchor.active) a.active {
     color: white;
 }
-body:has(.home_anchor.active) .navbar-nav li a.active::after{
+
+body:has(.home_anchor.active) .navbar-nav li a.active::after {
     background-color: #fff;
-} */
+}
 
 /*+++++++++++++++++++++++++++++ end navbar ++++++++++++++++++++++++++++++++*/
 
